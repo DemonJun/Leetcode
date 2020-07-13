@@ -1,7 +1,7 @@
 /*
  * @lc app=leetcode.cn id=27 lang=java
  *
- * [27] 移除元素
+ * [27] 移除元素 
  */
 
 // @lc code=start
