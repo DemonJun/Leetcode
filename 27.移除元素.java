@@ -7,19 +7,21 @@
 // @lc code=start
 class Solution {
     public int removeElement(int[] nums, int val) {
-        if (nums.length == 0) {
+        if (nums.length < 1) {
             return 0;
         }
-        int quickIndex = 1;
+
         int slowIndex = 0;
-        for (; quickIndex < nums.length; quickIndex++) {
-            if (nums[slowIndex] != nums[quickIndex]) {
+        int fastIndex = 0;
+
+        for (; fastIndex < nums.length; fastIndex++) {
+            if (nums[fastIndex] != val) {
+                nums[slowIndex] = nums[fastIndex];
                 slowIndex++;
-                nums[slowIndex] = nums[quickIndex];
             }
         }
 
-        return slowIndex + 1;
+        return slowIndex;
     }
 }
 // @lc code=end
