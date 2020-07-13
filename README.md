@@ -22,3 +22,4 @@
 - [x] [350.两个数组的交集-ii](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)
 - [x] [392.判断子序列](https://leetcode-cn.com/problems/is-subsequence)
 - [x] [622.设计循环队列](https://leetcode-cn.com/problems/design-circular-queue)
+- [x] [146.lru缓存机制](https://leetcode-cn.com/problems/lru-cache)
